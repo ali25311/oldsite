@@ -47,6 +47,7 @@ h1 {
   font-size: 18px;
   line-height: 32px; /* within paragraph */
   margin-bottom: 50px; /* between paragraphs */
+  background: rgb(191, 114, 194, 0.2);
 }
 
 .links {
