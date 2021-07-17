@@ -1,0 +1,59 @@
+/* Custom Google Font */
+@import url("https://fonts.googleapis.com/css2?family=Questrial&display=swap");
+
+:root {
+  font-family: "Questrial", sans-serif;
+  background: #000;
+  color: rgb(125, 168, 233);
+  box-sizing: content-box;
+  width: 100%;
+  background-image: url("./images/losAngeles.jpg");
+}
+
+nav {
+  text-align: right;
+  margin: 50px;
+  font-size: 130%;
+}
+
+/* for nav bar */
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+/* for nav bar */
+li {
+  display: inline;
+  padding: 16px;
+}
+
+.test {
+  margin-left: 40px;
+  margin-right: 40px;
+}
+
+h1 {
+  margin-left: inherit;
+  font-size: 50px;
+  margin-bottom: 0;
+}
+
+#intro {
+  line-height: 1.6;
+  margin-left: inherit;
+  color: rgb(255, 255, 255);
+  font-size: 18px;
+  line-height: 32px; /* within paragraph */
+  margin-bottom: 50px; /* between paragraphs */
+}
+
+.links {
+  text-decoration: none;
+  color: #fff;
+}
+
+.links:hover {
+  color: yellow;
+}
