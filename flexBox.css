@@ -1,0 +1,61 @@
+/* ========================================== */
+/* header is the navbar for all pages */
+header {
+  display: flex;
+  justify-content: flex-end;
+  align-items: right;
+  padding: 0px 10%;
+  margin: 30px;
+  font-size: 130%;
+  flex-wrap: wrap;
+}
+
+.container-0,
+.links-flexbox-container {
+  margin-left: 40px;
+  margin-right: 40px;
+}
+
+/* ========================================== */
+/* for links.html */
+
+.links-flexbox-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.heading {
+  order: 1;
+  text-align: center;
+  /* https://stackoverflow.com/questions/26086515/css-flex-how-to-display-one-item-on-first-line-and-two-on-the-next-line */
+  flex: 1 0 100%;
+  margin-top: -33.5px;
+  margin-bottom: 5%;
+}
+
+.linkedIn {
+  order: 2;
+}
+.fa-linkedin:hover {
+  color: rgb(245, 255, 101);
+}
+
+.gitHub {
+  order: 3;
+}
+.fa-github:hover {
+  color: rgb(245, 255, 101);
+}
+
+.email {
+  order: 4;
+}
+.fa-envelope:hover {
+  color: rgb(245, 255, 101);
+}
+/* color: rgb(245, 255, 101); */
+
+/* ========================================== */
