@@ -12,6 +12,8 @@
   padding: 0;
 }
 
+/* ===================== */
+/* for all the nav-links on the nav-bar */
 li,
 a {
   display: inline;
@@ -38,6 +40,7 @@ h1 {
   font-size: 50px;
   margin-bottom: 0;
 }
+/* ===================== */
 
 #text_bubbles {
   line-height: 1.6;

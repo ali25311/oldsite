@@ -2,18 +2,34 @@
 /* header is the navbar for all pages */
 header {
   display: flex;
-  justify-content: flex-end;
-  align-items: right;
+  justify-content: flex-end; /* for the main-axis */
+  align-items: right; /* for the cross-axis */
   padding: 0px 10%;
   margin: 30px;
   font-size: 130%;
   flex-wrap: wrap;
 }
 
-.container-0,
-.links-flexbox-container {
-  margin-left: 40px;
-  margin-right: 40px;
+/* for all flexbox containers */
+.index-container,
+.links-flexbox-container,
+.skills-container {
+  margin-left: 8%;
+  margin-right: 8%;
+  animation-name: move;
+  animation-duration: 2s;
+  animation-iteration-count: 1;
+}
+
+@keyframes move {
+  0% {
+    transform: translateX(-40px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0px);
+    opacity: 1;
+  }
 }
 
 /* ========================================== */
@@ -21,17 +37,15 @@ header {
 
 .links-flexbox-container {
   display: flex;
-  align-items: center;
   justify-content: center;
-  flex-direction: row;
   flex-wrap: wrap;
 }
 
-.heading {
+.links-heading {
   order: 1;
   text-align: center;
   /* https://stackoverflow.com/questions/26086515/css-flex-how-to-display-one-item-on-first-line-and-two-on-the-next-line */
-  flex: 1 0 100%;
+  flex: 1 0 100%; /* grow, shrink, flex-basis */
   margin-top: -33.5px;
   margin-bottom: 5%;
 }
@@ -57,5 +71,4 @@ header {
   color: rgb(245, 255, 101);
 }
 /* color: rgb(245, 255, 101); */
-
 /* ========================================== */
