@@ -32,9 +32,6 @@ header {
     opacity: 1;
   }
 }
-
-/* for mySkills.html */
-
 /* ========================================== */
 /* for links.html */
 
@@ -87,3 +84,13 @@ header {
 }
 /* color: rgb(245, 255, 101); */
 /* ========================================== */
+/* FOR THE COPYRIGHT AT BOTTOM OF EACH PAGE */
+
+footer {
+  position: fixed;
+  height: 50px;
+  top: 0px;
+  left: 20px;
+  margin-bottom: 0px;
+  font-size: 70%;
+}
