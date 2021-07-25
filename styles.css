@@ -4,11 +4,14 @@
 :root {
   font-family: "Questrial", sans-serif;
   background: #000;
-  color: rgb(125, 168, 233);
+  color: rgb(0, 240, 248);
   box-sizing: border-box;
   width: 100%;
-  background-image: url("./images/losAngeles.jpg");
-  margin: 0;
+  /* background-image: url("./images/losAngeles.jpg");
+  background-repeat: no-repeat; */
+  background: url("./images/losAngeles.jpg") no-repeat center center fixed;
+  /* https://css-tricks.com/perfect-full-page-background-image/ */
+  background-size: cover;
   padding: 0;
 }
 
@@ -35,11 +38,12 @@ a {
   color: rgb(245, 255, 101);
 }
 
-h1 {
+.regular-heading {
   margin-left: inherit;
   font-size: 50px;
   margin-bottom: 0;
 }
+
 /* ===================== */
 
 #text_bubbles {
@@ -51,5 +55,17 @@ h1 {
   margin-bottom: 50px; /* between paragraphs */
   padding: 20px;
   border-radius: 25px;
-  background: rgb(191, 114, 194, 0.2);
+  background: rgb(191, 114, 194, 0.7);
+}
+
+#skills_text_bubbles {
+  line-height: 1.6;
+  margin-left: inherit;
+  color: rgb(255, 255, 255);
+  font-size: 25px;
+  line-height: 50px; /* within paragraph */
+  margin-bottom: 10px; /* between paragraphs */
+  padding: 10px;
+  border-radius: 25px;
+  background: rgb(191, 114, 194, 0.7);
 }
