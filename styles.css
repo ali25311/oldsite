@@ -47,6 +47,7 @@ a {
 /* ===================== */
 
 #text_bubbles {
+  text-align: center;
   line-height: 1.6;
   margin-left: inherit;
   color: rgb(255, 255, 255);
@@ -59,6 +60,7 @@ a {
 }
 
 #skills_text_bubbles {
+  text-align: center;
   line-height: 1.6;
   margin-left: inherit;
   color: rgb(255, 255, 255);
@@ -68,4 +70,13 @@ a {
   padding: 10px;
   border-radius: 25px;
   background: rgb(191, 114, 194, 0.7);
+}
+
+#cv-button {
+  padding: 0.5em;
+  font-size: 1.15rem;
+  background: transparent;
+  color: var(--textColor);
+  border: 2px solid var(--textColor);
+  cursor: pointer;
 }
