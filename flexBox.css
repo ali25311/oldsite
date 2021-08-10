@@ -23,7 +23,7 @@ header {
   animation-duration: 2s;
   animation-iteration-count: 1;
   justify-content: center;
-  width: 80%;
+  width: 70%;
 }
 
 @keyframes move {
@@ -45,7 +45,7 @@ header {
   flex-wrap: wrap;
   flex-direction: column;
   text-align: center;
-  margin-inline-start: 5%;
+  margin-inline-start: 12%;
   margin-inline-end: 10%;
 }
 
