@@ -40,7 +40,7 @@ a {
 
 .regular-heading {
   margin-left: inherit;
-  font-size: 50px;
+  font-size: 3rem;
   margin-bottom: 0;
 }
 
@@ -72,6 +72,19 @@ a {
   background: rgb(191, 114, 194, 0.7);
 }
 
+#projects_text_bubbles {
+  text-align: center;
+  line-height: 1.2;
+  margin-left: inherit;
+  color: rgb(255, 255, 255);
+  font-size: 1.2rem;
+  line-height: 30px; /* within paragraph */
+  margin-bottom: 5px; /* between paragraphs */
+  padding: 5px;
+  border-radius: 25px;
+  background: rgb(191, 114, 194, 0.7);
+}
+
 #cv-button {
   padding: 0.5em;
   font-size: 1.15rem;
@@ -79,4 +92,15 @@ a {
   color: var(--textColor);
   border: 2px solid var(--textColor);
   cursor: pointer;
+}
+
+#learnMoreBtn {
+  padding: 0.5em;
+  font-size: 1.15rem;
+  background: transparent;
+  color: var(--textColor);
+  border: 2px solid var(--textColor);
+  cursor: pointer;
+  border-width: 0.2em;
+  border-style: solid;
 }
