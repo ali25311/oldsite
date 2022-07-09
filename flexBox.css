@@ -92,3 +92,17 @@ footer {
   margin-left: 5%;
   text-align: center;
 }
+
+/* 
+great solution:
+https://stackoverflow.com/questions/12991351/css-force-image-resize-and-keep-aspect-ratio
+*/
+.image-container {
+  display: block;
+  width: 100%;
+  height: auto;
+  position: relative;
+  overflow: hidden;
+  padding: 0 0 30px 0;
+  margin: 0 0 0 0;
+}
